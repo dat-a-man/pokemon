@@ -24,10 +24,12 @@ def load(resources: List[str]) -> None:
     print(load_info)
 
 
-if __name__ == "__main__":
+def main() -> None:
     """
     Main function to execute the data loading pipeline.
     Add your desired resources to the list and call the load function.
     """
     resources = ["pokemon", "berries"]
     load(resources)
+
+main()
