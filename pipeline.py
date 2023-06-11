@@ -24,7 +24,7 @@ def load(resources: List[str]) -> None:
     print(load_info)
 
 
-def main() -> None:
+def mainpipeline():
     """
     Main function to execute the data loading pipeline.
     Add your desired resources to the list and call the load function.
@@ -32,4 +32,3 @@ def main() -> None:
     resources = ["pokemon", "berries"]
     load(resources)
 
-main()
